@@ -20,4 +20,4 @@ def test_login_from_home(page):
 
     time.sleep(3)
     # Step 4: Verify success (adjust selector after login!)
-    # assert page.is_visible("text=Dashboard") or page.is_visible("text=Welcome")
+    assert page.is_visible("text=Dashboard") or page.is_visible("text=Welcome")
